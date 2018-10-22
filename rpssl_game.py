@@ -81,8 +81,6 @@ def choice_result(human_move, computer_move):
     elif ((human_value - computer_value) % 5) in [2, 4]:
         COMPUTER_SCORE += 1
         return
-    else:
-        return
 
 
     # Based on the given human_choice and computer_choice,
